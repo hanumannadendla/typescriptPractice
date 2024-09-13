@@ -1,7 +1,6 @@
 
 
 class car{
-
     public  drivingseat(){
         console.log("drivingseat");
     }

@@ -2,7 +2,11 @@ console.log("welcome to typescript");
 
 var a:number= 10;
 let b:number =100;
-const c={"test":100};
+const c={"test":100,
+    "test1":100,
+    "test2":100,
+    "test3":100
+};
 var a= 100;
 b =500;
 c.test =400;
@@ -17,7 +21,8 @@ arr.forEach((value)=>{
 })
 
 console.log(arr.reverse());
-console.log(arr.sort(((a,b)=>b-a)));
+let ar = ["abs","jsdhk","sffdsdf","sd"]
+console.log(ar.sort((a,b)=>a.length-b.length));
 
 let ourTuple: [number, boolean, string] = [5, false, 'Coding God was here'];
 console.log(ourTuple[0]);
